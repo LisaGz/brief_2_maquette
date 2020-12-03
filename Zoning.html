@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">     
+
+    <head>
+        <meta charset="UTF-8"/> 
+        <link rel="stylesheet" href="Zoning.css" media="screen"/> 
+        <meta name="viewport" content="width=device-width initial-scall=1.0"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> Site agence</title>
+    </head>
+
+    <body>
+    <!--Section Contact et réseaux-->
+        <header> 
+            <div class="reseaux">
+                Contact et Réseaux
+            </div>
+        </header>
+    <!--Fin de section Contact et réseaux-->
+
+    <!--Barre de Navigation avec logo à gauche-->
+      
+    <!--Onglet de navigation-->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+    <!--Fin de la barre de navigation--> 
+        
+    <!--Les sections-->
+        <section> 
+    <!--Section 1_image de fond, gros titre et phrases d'accroches-->
+            <div class="section1">
+                Section 1
+            </div>
+           
+    <!--Section 2 projet web, services -->
+            <div class="section2">
+                <fieldset>
+                    <legend>.</legend>
+                    <div id="cercle1"></div> 
+                    <div id="cercle2"></div>
+                    <div id="cercle3"></div>
+                    <div id="cercle4"></div>
+                </fieldset>
+            </div>
+    <!--Section 3_Coordonnées, créations de site internet, domaines d'activité -->
+            <div class="section3">
+                Section 3
+            </div>
+        </section>
+    <!--Footer_Mentions légal, conditions général ect-->
+        <footer>  
+        </footer>            
+    </body>
+</html>
